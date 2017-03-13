@@ -1,0 +1,35 @@
+<div class="row">
+    <form action="<?= $this->url('dashboard', ['action' => 'contract']) ?>" class="async col-md-3 collapse" id="contract-type-add-collapse">
+        <div class="form-group">
+            <label class="control-label application-label" for="contract-type-add"><?= $this->translate('Set Contract Type') ?>*</label>
+            <input id="contract-type-add" name="value" type="text" placeholder="" class="form-control input-md application-input" required/>
+        </div>
+        <button class="button-save btn">Create area</button>
+    </form>
+</div>
+<a type="button" class="row a-dashboard " data-toggle="collapse" data-target="#contract-type-add-collapse">+ Set Contract type</a>
+<table class="table">
+    <tr>
+        <th>#</th>
+        <th><?= $this->translate('Name')?></th>
+        <th><?= $this->translate('Code')?></th>
+        <th></th>
+    </tr>
+        <?php foreach ($this->paginator as $contract) : ?>
+            <tr>
+                <?php /** @var \Application\Model\Area $area */ ?>
+                <td><?= $contract->getId() ?></td>
+                <td class="value-name"><?= $contract->getName() ?></td>
+                <td><?= $contract->getCode() ?></td>
+                <td>
+                    <div class="text-right configure-buttons" data-id="<?= $contract->getId() ?>" data-action="<?= $this->url('dashboard', ['action' => 'contract-delete']) ?>" data-action-save="<?= $this->url('dashboard', ['action' => 'contract']) ?>">
+                        <a class="btn a-dashboard  configure-edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> <?= $this->translate('Edit')?></a>&nbsp;
+                        <a class="btn a-dashboard configure-delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"> <?= $this->translate('Delete')?></a>
+                    </div>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+</table>
+<div class="text-right">
+    <?= $this->render('layout/helper/pagination') ?>
+</div>

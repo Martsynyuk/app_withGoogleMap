@@ -1,0 +1,35 @@
+<div class="row">
+    <form action="<?= $this->url('dashboard', ['action' => 'reason-removal']) ?>" class="async col-md-3 collapse" id="contract-type-add-collapse">
+        <div class="form-group">
+            <label class="control-label application-label" for="source-application"><?= $this->translate('Set Option Why Delete') ?>*</label>
+            <input id="source-application" name="value" type="text" placeholder="" class="form-control input-md application-input" required/>
+        </div>
+        <button class="button-save btn">Create</button>
+    </form>
+</div>
+<a type="button" class="row a-dashboard " data-toggle="collapse" data-target="#contract-type-add-collapse">+ Set Option Why Delete</a>
+<table class="table">
+    <tr>
+        <th>#</th>
+        <th><?= $this->translate('Name')?></th>
+        <th><?= $this->translate('Code')?></th>
+        <th></th>
+    </tr>
+        <?php foreach ($this->paginator as $key) : ?>
+            <tr>
+                <?php /** @var \Application\Model\Area $area */ ?>
+                <td><?= $key->getId() ?></td>
+                <td class="value-name"><?= $key->getName() ?></td>
+                <td><?= $key->getCode() ?></td>
+                <td>
+                    <div class="text-right configure-buttons" data-id="<?= $key->getId() ?>" data-action="<?= $this->url('dashboard', ['action' => 'reason-removal-delete']) ?>" data-action-save="<?= $this->url('dashboard', ['action' => 'reason-removal']) ?>">
+                        <a class="btn a-dashboard  configure-edit"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> <?= $this->translate('Edit')?></a>&nbsp;
+                        <a class="btn a-dashboard configure-delete"><span class="glyphicon glyphicon-trash" aria-hidden="true"> <?= $this->translate('Delete')?></a>
+                    </div>
+                </td>
+            </tr>
+            <?php endforeach; ?>
+</table>
+<div class="text-right">
+    <?= $this->render('layout/helper/pagination') ?>
+</div>

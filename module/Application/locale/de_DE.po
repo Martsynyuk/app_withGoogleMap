@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Deutsch\n"
+
+msgid "Value is required and can't be empty"
+msgstr "Wert ist erforderlich und kann nicht leer sein"
+
+msgid "Login details"
+msgstr "Login-Daten"
+
+msgid "Search request result"
+msgstr "Suche nach Anfrage-Ergebnis"
+
+msgid "Successfully registered"
+msgstr "Erfolgreich registriert"
+
+msgid "Password recovery"
+msgstr "Password recovery"
+
+msgid "Recovery password link is not valid"
+msgstr "Recovery über den link " Kennwort ist nicht gültig"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Set Area Around"
+msgstr "Set Bereich Um"
+
+msgid "Set area around"
+msgstr "Set Bereich um"
+
+msgid "Text Value"
+msgstr "Text Wert"
+
+msgid "Value in meters"
+msgstr "Wert in Meter"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Set Contract Type"
+msgstr "Set Contract Type"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Surname"
+msgstr "Vorname"
+
+msgid "ZIP"
+msgstr "PLZ"
+
+msgid "City"
+msgstr "Stadt"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Driving licence"
+msgstr "Fahrerlaubnis"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Keine"
+
+msgid "Car available"
+msgstr "Haben Sie ein Auto ?"
+
+msgid "Nothing where found"
+msgstr "Nichts gefunden, wo"
+
+msgid "Date of application / entry"
+msgstr "Datum der Anwendung / Eintrag"
+
+msgid "Mobile Phone"
+msgstr "Mobilnummer"
+
+msgid "Set Option Why Delete"
+msgstr "Setzen Sie Die Option Warum Löschen"
+
+msgid "Not used yet"
+msgstr "Noch nicht verwendet"
+
+msgid "Create search request"
+msgstr "Erstellen Suchanfrage"
+
+msgid "Last searching"
+msgstr "Letzte Suche"
+
+msgid "Send result to Mail"
+msgstr "Senden Sie das Ergebnis an E-Mail"
+
+msgid "Actions"
+msgstr "Aktionen"
+
+msgid "Enable mail"
+msgstr "Aktivieren E-mail"
+
+msgid "Disable mail"
+msgstr "Deaktivieren Sie E-mail"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "range"
+msgstr "Angebot"
+
+msgid "km"
+msgstr "km"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Any"
+msgstr "Jeder"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "Deleted"
+msgstr "Gelöscht"
+
+msgid "Employed"
+msgstr "Beschäftigt"
+
+msgid "Area around"
+msgstr "Bereich um"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Clear marker"
+msgstr "Klar marker"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Set Source Application"
+msgstr "Legen Sie Die Quell-Anwendung"
+
+msgid "Select statistic period"
+msgstr "Wählen Sie Statistik-Zeitraums"
+
+msgid "Set Weekly hours"
+msgstr "Wöchentliche Stunden"
+
+msgid "Value in seconds"
+msgstr "Wert in Sekunden"
+
+msgid "Edit Application"
+msgstr "Bearbeiten Anwendung"
+
+msgid "Address"
+msgstr "Strasse m. Hausnummer"
+
+msgid "Mobile phone number"
+msgstr "Handy-Nummer"
+
+msgid "Landline number"
+msgstr "Festnetznummer"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Area around home address willing to work"
+msgstr "In welchem Umkreis um Ihre Wohnung können Sie arbeiten ?"
+
+msgid "Type of contract"
+msgstr "gewünschte Vertragsart"
+
+msgid "Weekly hours available"
+msgstr "Wieviele Stunden pro Woche möchten Sie maximal arbeiten ?"
+
+msgid "Start day"
+msgstr "Wann möchten Sie anfangen ?"
+
+msgid "Comments"
+msgstr "Anmerkungen"
+
+msgid "Hourly rate"
+msgstr "gewünschter Stundenlohn"
+
+msgid "Experience in the job"
+msgstr "Haben Sie bereits Erfahrung als Haushaltshilfe ?"
+
+msgid "Application Source"
+msgstr "Anwendung Quelle"
+
+msgid "Upload user photo"
+msgstr "Bewerbungsfoto hochladen"
+
+msgid "Attachments"
+msgstr "Lebenslauf / Zeugnisse hochladen"
+
+msgid "File format"
+msgstr "Datei-format"
+
+msgid "Fire"
+msgstr "Feuer"
+
+msgid "Employ"
+msgstr "Beschäftigen"
+
+msgid "Reason Delete"
+msgstr "Grund Löschen"
+
+msgid "Germany"
+msgstr "Deutschland"
+
+msgid "Additional information"
+msgstr "Weitere Informationen"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Has experience"
+msgstr "Hat Erfahrung"
+
+msgid "Driving license present"
+msgstr "Haben Sie einen Führerschein ?"
+
+msgid "Source Application"
+msgstr "- Source-Anwendung"
+
+msgid "Add Attachments"
+msgstr "Hinzufügen Von Anlagen"
+
+msgid "Check your email box"
+msgstr "Überprüfen Sie Ihre E-Mail-box"
+
+msgid "Send me recovery link to email"
+msgstr "Senden Sie mir recovery-link zu E-Mail"
+
+msgid "Log In"
+msgstr "Log-In"
+
+msgid "Forgot password"
+msgstr "Passwort vergessen"
+
+msgid "Password"
+msgstr "Passwort"
+
+msgid "New Password"
+msgstr "Neues Passwort"
+
+msgid "Change password"
+msgstr "Passwort ändern"
+
+msgid "Sign up"
+msgstr "Anmelden"
+
+msgid "You have created search request with params"
+msgstr "Sie haben erstellt Suchanfrage mit params"
+
+msgid "Just created employee"
+msgstr "Nur Mitarbeiter erstellt"
+
+msgid "Your login details"
+msgstr "Ihre login-details"
+
+msgid "Login into website with details"
+msgstr "Login auf website mit details"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "You have requested password recovery option for email"
+msgstr "Sie haben angefordert Passwort-recovery-option für E-Mail"
+
+msgid "To recover password go to"
+msgstr "Um Passwort wiederherzustellen, gehen Sie zu"
+
+msgid "url"
+msgstr "url"
+
+msgid "If you did not request a password recovery follow"
+msgstr "Wenn du nicht angefordert hast, ein Passwort-recovery-Folgen"
+
+msgid "Leave comment"
+msgstr "Kommentar hinterlassen"
+
+msgid "Logout"
+msgstr "Logout"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Create Employee"
+msgstr "Erstellen Sie Für Mitarbeiter"
+
+msgid "Exit from dashboard"
+msgstr "Ausfahrt aus dem dashboard"
+
+msgid "Search employee"
+msgstr "Suche Mitarbeiter"
+
+msgid "Search requests"
+msgstr "Suchanfragen"
+
+msgid "Configure Around Areas"
+msgstr "Konfigurieren, Um Gebiete Mit"
+
+msgid "Configure Contract Type"
+msgstr "Konfigurieren Vertrag Geben"
+
+msgid "Configure Source Application"
+msgstr "Konfigurieren Der Quell-Anwendung"
+
+msgid "Configure List Why Delete"
+msgstr "Konfigurieren Der Liste, Warum Löschen"
+
+msgid "Configure Weekly Hours"
+msgstr "Konfigurieren Stunden"
+
+msgid "Configure Register keys"
+msgstr "Konfigurieren Register Tasten"
+
+msgid "Statistics"
+msgstr "Statistik"
+
+msgid "Sign In"
+msgstr "Anmelden"
+
+msgid "Incorrect value"
+msgstr "Falschen Wert"
+
+msgid "User with same email found"
+msgstr "Benutzer mit der gleichen E-Mail gefunden"
+
+msgid "Invalid email or/and password"
+msgstr "Ungültige E-Mail oder/und Passwort"
+
+msgid "Some error occurred while logging in"
+msgstr "Einige Fehler beim einloggen"
+
+msgid "Invalid type given. String, integer or float expected"
+msgstr "Ungültiger Typ angegeben. String, integer oder float erwartet"
+
+msgid "The input does not match against pattern"
+msgstr "Die Eingabe ist nicht match gegen Muster"
+
+msgid "There was an internal error while using the pattern"
+msgstr "Es ist ein interner Fehler bei der Verwendung der Muster"
+
+msgid "Invalid type given. String expected"
+msgstr "Ungültiger Typ angegeben. String erwartet"
+
+msgid "The input is less than %min% characters long"
+msgstr "Der Eingang ist weniger als %min% Zeichen lang sein"
+
+msgid "The input is more than %max% characters long"
+msgstr "Der Eingang ist mehr als %max% Zeichen lang sein"
+
+msgid "User with such email does not exist"
+msgstr "Benutzer mit dieser E-Mail existiert nicht"
+
+msgid "Some error occurred while validating email"
+msgstr "Einige Fehler beim überprüfen der E-Mail"
+
+msgid "Full Name"
+msgstr "Vollständiger Name"
+

@@ -1,0 +1,48 @@
+<script src="<?= $this->basePath('js/vendor/require.js') ?>"></script>
+<script>
+
+    /**
+     *
+     * @param path
+     * @param callback
+     * @constructor
+     * return patch to file
+     */
+    BasePath = function(path, callback) {
+        var success = function (response) {
+            callback(response.path);
+        };
+
+        jQuery.ajax(
+            {
+                url: '<?= $this->url('index', ['action' => 'base-path']) ?>',
+                data: {path: path},
+                method: 'post',
+                success: success
+            }
+        );
+    };
+
+    'use strict';
+
+    var Globals = {};
+
+    <?php $routeMatch = $this->route(); ?>
+    <?php /** @var \Application\View\Helper\Route $routeMatch */ ?>
+    <?php $url = $this->url($routeMatch->getRoute(), $routeMatch->getParams()); ?>
+    <?php $scripts = $this->scripts();?>
+    <?php $scriptFiles = []; ?>
+    <?php foreach ($scripts as $rule => $script) : ?>
+
+        <?php if (preg_match('/' . $rule . '/', $url) === 1) : ?>
+            <?php $scriptFiles = Zend\Stdlib\ArrayUtils::merge($scriptFiles, $script) ?>
+        <?php endif; ?>
+
+    <?php endforeach; ?>
+
+    <?php foreach ($scriptFiles as $scriptFile) : ?>
+        requirejs(['<?= $this->basePath($scriptFile) ?>'], function () {
+    <?php endforeach; ?>
+    <?= str_repeat('});', count($scriptFiles)) ?>
+
+</script>
